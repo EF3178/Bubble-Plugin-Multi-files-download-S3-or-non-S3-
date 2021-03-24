@@ -1,0 +1,10 @@
+{
+    "categories": {
+        "0": "productivity"
+    },
+    "description": "This plugin lets you zip and download multiple files including if they are not stored on aws S3 (where Bubble stores your apps' files).\n\nIt is a fork & update of the original plugin \"Zip File Compress & Download\" by segongora.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1616538345524x140693707758955400/tt.png",
+    "license": "open_source",
+    "name": "Zip and download files",
+    "plugin_instructions": "1) Provide zip filename (ex : myzipfile.zip) in the filename field - mandatory.\n2) Provide a list of files urls (from a repeating group, or a database search, or options list...) in the \"list of files\" field.\n"
+}

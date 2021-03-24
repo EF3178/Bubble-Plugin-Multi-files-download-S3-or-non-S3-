@@ -1,0 +1,57 @@
+{
+    "category": "plugins",
+    "display": "Download files",
+    "fields": {
+        "AAC": {
+            "caption": "1) File Name",
+            "doc": "This is your output zipfile name (ex : myfile.zip)",
+            "editor": "DynamicValue",
+            "name": "filename",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAD": {
+            "caption": "2) List of files to zip",
+            "doc": "In this section you can point which files will be downloaded. Bubble uploads it's files to Amazon S3, so this field will only accept a List of URL's (strings with valid URL codification)",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "long_text": true,
+            "name": "files",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "3) Single file (No Zip)",
+            "doc": "In this section you can point which file will be downloaded. Bubble uploads it's files to Amazon S3, so this field will only accept a URL (string with valid URL codification)",
+            "editor": "DynamicValue",
+            "name": "single_file",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "To download  a single file, use field 3)===========================",
+            "editor": "Label",
+            "name": "info",
+            "rank": 3
+        },
+        "AAG": {
+            "caption": "Folder Name",
+            "doc": "(OPTIONAL) This section serves for naming the folder inside the ZIP file. If it's only one file to download, no folder will be created. If it has more than one file, the folder will be created and named after File Name (only if this space is left blank).",
+            "editor": "DynamicValue",
+            "name": "folder_name",
+            "optional": true,
+            "rank": 5,
+            "value": "text"
+        },
+        "AAM": {
+            "caption": "For multiple files use fields 1) and 2)=================",
+            "editor": "Label",
+            "name": "info_1",
+            "rank": 0
+        }
+    },
+    "type": "client_side",
+    "use_packages": true
+}

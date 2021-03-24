@@ -1,0 +1,6 @@
+{
+    "dependencies": {
+        "jszip": "latest",
+        "filesaver.js": "latest"
+    }
+}
